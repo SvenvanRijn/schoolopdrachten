@@ -1,0 +1,43 @@
+.gameButton{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    width: fit-content;
+    margin: auto;
+}
+#pSteen{
+    float: left;
+}
+#pPapier{
+    float: left;
+}
+#pSchaar{
+    float: left;
+}
+#cSteen{
+    background-color: green;
+    float: right;
+}
+#cPapier{
+    background-color: green;
+    float: right;
+}
+#cSchaar{
+    background-color: green;
+    float: right;
+}
+.gameSpace{
+    width: 1000px;
+    margin: auto;
+    background-color: lightblue;
+}
+#result{
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+.buttonContainer{
+    width: 200px;
+    float: left;
+}
