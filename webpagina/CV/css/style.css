@@ -1,0 +1,18 @@
+img{
+    float: right;
+    max-width: 200px;
+    border-radius: 20px;
+}
+body{
+    background-color: rgb(214, 228, 233);
+    font-family: calibri, monospace;
+}
+.pagina{
+    padding: 20px;
+    background-color: white;
+    max-width: 1080px;
+    margin: auto;
+}
+.eerstecol{
+    width: 300px;
+}
