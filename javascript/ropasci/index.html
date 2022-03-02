@@ -13,18 +13,19 @@
     <div class="score"> 
 
     </div>
+    <input type="button" id="startGame" onclick="startGame()" value ="Start Game">
     <div class="gameSpace">
         <div class="buttonContainer">
-            <input type="button" id="pSteen" class="gameButton" onclick="playGame('steen')">
-            <input type="button" id="pPapier" class="gameButton" onclick="playGame('papier')">
-            <input type="button" id="pSchaar" class="gameButton" onclick="playGame('schaar')">
+            <input type="button" id="pSteen" class="gameButton steen" onclick="singleGame('steen')" disabled>
+            <input type="button" id="pPapier" class="gameButton papier" onclick="singleGame('papier')" disabled>
+            <input type="button" id="pSchaar" class="gameButton schaar" onclick="singleGame('schaar')" disabled>
         </div>
         <div id="result">
-
+            
         </div>
-        <div class="gameButton" id="cSteen"></div>
-        <div class="gameButton" id="cPapier"></div>
-        <div class="gameButton" id="cSchaar"></div>
+        <div class="gameButton steen" id="cSteen"></div>
+        <div class="gameButton papier" id="cPapier"></div>
+        <div class="gameButton schaar" id="cSchaar"></div>
         
     </div>
 </body>

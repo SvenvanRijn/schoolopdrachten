@@ -6,6 +6,14 @@ h1{
     width: fit-content;
     margin: auto;
 }
+#score{
+    width: fit-content;
+    margin: auto;
+}
+#startGame{
+    width: fit-content;
+    margin-left: 47.8%;
+}
 #pSteen{
     float: left;
 }
@@ -16,16 +24,22 @@ h1{
     float: left;
 }
 #cSteen{
-    background-color: green;
     float: right;
 }
 #cPapier{
-    background-color: green;
     float: right;
 }
 #cSchaar{
-    background-color: green;
     float: right;
+}
+.steen{
+    background-color: green;
+}
+.papier{
+    background-color: green;
+}
+.schaar{
+    background-color: green;
 }
 .gameSpace{
     width: 1000px;
