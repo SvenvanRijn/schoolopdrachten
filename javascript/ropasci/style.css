@@ -1,8 +1,10 @@
 .gameButton{
     width: 200px;
     height: 200px;
+    background-size: contain;
+    border: none;
 }
-h1{
+h1, #header{
     width: fit-content;
     margin: auto;
 }
@@ -33,13 +35,13 @@ h1{
     float: right;
 }
 .steen{
-    background-color: green;
+    background-image: url(images/steen.png);
 }
 .papier{
-    background-color: green;
+    background-image: url(images/papier.png);
 }
 .schaar{
-    background-color: green;
+    background-image: url(images/schaar.png);
 }
 .gameSpace{
     width: 1000px;
@@ -50,8 +52,21 @@ h1{
     width: 600px;
     height: 600px;
     float: left;
+    font-size: x-large;
+    margin-top: 10%;
 }
 .buttonContainer{
     width: 200px;
     float: left;
+}
+#gamechoises{
+    display: flex;
+    height: fit-content;
+    margin-top: 20%;
+    justify-content: center;
+}
+#vs{
+    height: fit-content;
+    margin: 20px;
+    margin-top: 45px;
 }

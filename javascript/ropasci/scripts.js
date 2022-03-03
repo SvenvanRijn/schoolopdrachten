@@ -17,15 +17,15 @@ function updateGameSpace(result, choice, botChoice){
     if (result != "draw"){
         if(result == "win"){
             wins++;
-            gameSpace = '<div id="score">'+wins+'-'+ losses+'</div>'
+            gameSpace = '<div id="score">'+wins+'-'+ losses+'</div> <div id="gamechoises"> <img src="images/'+choice+'.png"> <p id="vs">V/S</p><img src="images/'+botChoice+'.png"></div>'
         }else{     
             losses++;
-            gameSpace = '<div id="score">'+wins+'-'+ losses+'</div>'
+            gameSpace = '<div id="score">'+wins+'-'+ losses+'</div> <div id="gamechoises"> <img src="images/'+choice+'.png"> <p id="vs">V/S</p><img src="images/'+botChoice+'.png"></div>'
         }
         numGamesPlayed++;
     }else{
 
-        gameSpace = '<div id="score">'+wins+'-'+ losses+'</div>'
+        gameSpace = '<div id="score">'+wins+'-'+ losses+'</div> <div id="gamechoises"> <img src="images/'+choice+'.png"> <p id="vs">V/S</p><img src="images/'+botChoice+'.png"></div>'
     }
     document.getElementById("result").innerHTML = gameSpace;
     if(numGamesPlayed >= totalGames || wins >= (totalGames/2) || losses >= (totalGames/2)){
